@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER Kevin Mims
+MAINTAINER James Stormes
 
 # Install bower and grunt
 RUN npm install bower -g 
