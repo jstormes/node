@@ -7,6 +7,8 @@ RUN npm install grunt -g
 
 COPY ssh-entry.sh /usr/local/bin/
 
+RUN chmod +x /usr/local/bin/ssh-entry.sh
+
 ENTRYPOINT ["/usr/local/bin/ssh-entry.sh"]
 
 # Open a bash terminal
