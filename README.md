@@ -5,6 +5,23 @@ This repository contains a **Dockerfile** with [Node](http://nodejs.org/), [Bowe
 
 Run the script below to in the working directory of your Gruntfile.js file.
 
+## Quick Start Windows
+
+* Install Docker
+* Install PowerShell if needed
+* Clone/Download this repo
+* Put the file dnode.ps1 somewhere in your path
+* From a PowerShell start the dnode script in your project directory.
+* You can run `node`, `bower`, and `grunt` from the provided command line.
+
+## Quick Start OS X/Linux
+
+* You don't need this!!! ;)
+
+## Source
+
+This was blatantly copied from Kevin's repo at [https://github.com/kevinmims/node-bower-grunt](https://github.com/kevinmims/node-bower-grunt)
+
 ## Base Docker Image
 
 * [node:latest](https://hub.docker.com/r/_/node/)
