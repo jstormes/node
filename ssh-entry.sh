@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 if [ "$id_rsa" ]; then
     echo "RSA is set"
     if [ ! -f ~/.ssh/id_rsa ]; then
@@ -18,6 +17,7 @@ fi
 
 if [ -d "/opt/project/bin" ]; then
   export PATH=/opt/project/bin:$PATH
+
 fi
 
 if [ -f /opt/project/bin/bashrc ]; then

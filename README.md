@@ -1,5 +1,5 @@
 # Docker Container with Node, Bower & Grunt installed
-[![dockeri.co](http://dockeri.co/image/kmims/node-bower-grunt)](https://hub.docker.com/r/kmims/node-bower-grunt/)
+[![dockeri.co](http://dockeri.co/image/jstormes/node)](https://hub.docker.com/r/jstormes/node/)
 
 This repository contains a **Dockerfile** with [Node](http://nodejs.org/), [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/).  It makes running grunt tasks on a windows machine much more error free (!lf/cr for example).  
 
