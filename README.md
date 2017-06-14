@@ -27,7 +27,7 @@ This was blatantly copied from Kevin's repo at [https://github.com/kevinmims/nod
 * [node:latest](https://hub.docker.com/r/_/node/)
 
 ## Docker Hub
-* [kmims/node-bower-grunt](https://hub.docker.com/r/kmims/node-bower-grunt)
+* [jstormes/node](https://hub.docker.com/r/jstormes/node)
 
 ## Installation
 
@@ -35,7 +35,7 @@ This was blatantly copied from Kevin's repo at [https://github.com/kevinmims/nod
 
 2. Build the image in PowerShell:
      ```
-     docker run --rm -it -v $PWD/:/opt/project -w /opt/project kmims/node-bower-grunt
+     docker run --rm -it -v $PWD/:/opt/project -w /opt/project jstormes/node
      ````
 
 ## Usage
